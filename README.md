@@ -43,6 +43,19 @@
 
 ## 使用方式
 
+### 方式一：直接叫 AI 幫你裝（最簡單）
+
+把這行貼給你的 AI agent：
+
+```
+這是 Codex 懶人包全集 https://github.com/mathruffian-dot/codex-lazy-packs
+請讀取 repo 內容，列出所有可用的懶人包，問我要裝哪些。
+```
+
+AI 會自動讀取 `SKILL.md`（安裝入口），列出 15 個技能，讓你選擇後自動安裝。
+
+### 方式二：手動下載 MD 檔
+
 1. 看影片了解原理（同 Claude 基本功系列）
 2. 下載對應的懶人包（MD 檔）
 3. 打開 OpenAI Codex CLI，把檔案內容貼進去
